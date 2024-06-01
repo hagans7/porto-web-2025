@@ -151,19 +151,12 @@ a:hover {
 
 section {
   padding-top: 1vh;
-  height: 80vh;
+  height: 60vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
 
-section-2 {
-  padding-top: 1vh;
-  height: 80vh;
-  margin: 0 10rem;
-  box-sizing: border-box;
-  min-height: fit-content;
-}
 
 .section-container {
   display: flex;
