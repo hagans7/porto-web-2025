@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
+
   <body>
     <nav id="desktop-nav">
       <div class="logo">Hagan</div>
@@ -40,17 +42,15 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-1.jpg" alt="Hagan profile picture" />
+        <img src="./assets/profile-1.jpg" alt="Hagan profile picture" class="about-pic" />
       </div>
+
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Hagan Sadina Rahman</h1>
         <p class="section__text__p2">Data & AI Enthusiast</p>
         <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
-          >
+          <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
             Download CV
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -58,56 +58,36 @@
           </button>
         </div>
         <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https:www.linkedin.com/in/hagansadinarahman'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/'"
-          />
+          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+            onclick="location.href='https:www.linkedin.com/in/hagansadinarahman'" />
+          <img src="./assets/github.png" alt="My Github profile" class="icon"
+            onclick="location.href='https://github.com/'" />
         </div>
       </div>
     </section>
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
+      <h1 class="title">About Me<br></h1>
       <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/profile-2.jpg"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
+        <!-- <div class="section__pic-container">
+          <img src="./assets/profile-2.jpg" alt="Profile picture" class="about-pic" />
+        </div> -->
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
+              <img src="./assets/education.png" alt="Education icon" class="icon" />
               <h3>Education</h3>
               <p> 2021–2025<br /> Bachelor of Applied Data Science (B.Sc.)<br />Current Cumulative GPA : 3.78 / 4.0.</p>
               <!-- <p> <br> <b>Relevant Coursework: </b>Machine Learning, Deep Learning, Text Processing & Mining,
                 Statistical &Probability Modeling, Econometrics, Data Warehouse, Data Presentation & Visualization.</p> -->
             </div>
             <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
+              <img src="./assets/experience.png" alt="Experience icon" class="icon" />
               <h3>Work Experience</h3>
               <p>Jan 2024 – Jun 2024 <br />AI Engineer at the Surabaya Regional Drinking Water Company (PDAM)
               </p>
             </div>
-            
+
           </div>
           <div class="about-details-container">
             <div class="about-containers">
@@ -117,29 +97,21 @@
                 <p>Sep 2023–Dec 2023<br />Data Scientist in Wates District Government, Blitar Regency</p>
               </div>
               <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Community Service Experience</h3>
-              <p>Jul 2023–Sep 2023<br />Data Analyst at Al-Falah Social Fund Foundation (YDSF)
+                <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                <h3>Community Service Experience</h3>
+                <p>Jul 2023–Sep 2023<br />Data Analyst at Al-Falah Social Fund Foundation (YDSF)
+                </p>
+              </div>
+              
+            </div>
+            <div class="text-container">
+              <p>
+                <b>Relevant Coursework: </b> Machine Learning, Deep Learning, Text Processing & Mining, Statistical &
+                Probability Modeling, Econometrics, Data Warehouse, Data Presentation & Visualization. <br><br><br>
               </p>
             </div>
-          <div class="text-container">
-            <p>
-              <b>Relevant Coursework: </b> Machine Learning, Deep Learning, Text Processing & Mining, Statistical &
-              Probability Modeling, Econometrics, Data Warehouse, Data Presentation & Visualization.
-            </p>
           </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
+          <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
     </section>
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
@@ -148,11 +120,7 @@
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
+              <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
             </div>
             <h5 class="experience-sub-title project-title">Generative Artificial Intelligence for Analysis Data
             </h5>
@@ -164,33 +132,23 @@
               analytical dashboard.
             </p>
             <p>
-              ● Finetuned the model from a pretrained Indonesian language model using Hugging Face. 
-            </p> 
+              ● Finetuned the model from a pretrained Indonesian language model using Hugging Face.
+            </p>
             <p>
               <br> <b>Keyword:LLM, RAG, Generative AI</b> <br> <br>
             </p>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
                 Documentation
               </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
+              <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
             </div>
             <h5 class="experience-sub-title project-title">Build Chatbot for Customer Service</h5>
             <p>
@@ -198,58 +156,42 @@
               responses.
             </p>
             <p>
-              ● Reduced response times and enhancing service efficiency.  
+              ● Reduced response times and enhancing service efficiency.
             </p>
             <p>
               <br> <b>Keyword:LLM, RAG, Generative AI</b> <br> <br>
             </p>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
                 Documentation
               </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
+              <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
             </div>
             <h5 class="experience-sub-title project-title">Sentiment Analysis of Customer Reviews</h5>
             <p>
-              ● D 
+              ● D
             </p>
             <p>
-              ● An 
+              ● An
             </p>
             <p>
-              ● Create 
+              ● Create
             </p>
             <p>
               <br> <b>Keyword:LLM, RAG, Generative AI</b> <br> <br>
             </p>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
                 Documentation
               </button>
             </div>
@@ -257,22 +199,24 @@
         </div>
       </div>
 
-      
+
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
               <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
             </div>
-            <h1 class="experience-sub-title project-title">Agricultural Sector Optimization Analysis Dashboard, Wates District, Blitar, East Java
+            <h1 class="experience-sub-title project-title">Agricultural Sector Optimization Analysis Dashboard, Wates
+              District, Blitar, East Java
             </h1>
             <p>
               ● Created Power BI dashboards for agricultural data and predicting crop planting times with 96% accuracy
               using TensorFlow and Keras.
             </p>
             <p>
-              ● Utilized geospatial data to optimize food production, resulting in 6 tailored recommendations for the best
-            crops in each regional mapping.
+              ● Utilized geospatial data to optimize food production, resulting in 6 tailored recommendations for the
+              best
+              crops in each regional mapping.
             </p>
             <p>
               ● Presented the dashboard and recommendations to local government agencies and the Wates sub-district
@@ -297,7 +241,7 @@
               ● Da
             </p>
             <p>
-              ● A 
+              ● A
             </p>
             <p>
               ● C <br> <br>
@@ -349,12 +293,12 @@
             </div>
             <h6 class="experience-sub-title project-title">Food Recommendation System using TensorFlow Recommenders
               (TFRS)</h6>
-              <p>
-                ● Uti 
-              </p>
-              <p>
-                ● Red <br> <br>
-              </p>
+            <p>
+              ● Uti
+            </p>
+            <p>
+              ● Red <br> <br>
+            </p>
 
             <div class="btn-container">
               <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
@@ -415,242 +359,234 @@
           </div>
         </div>
       </div>
-      
-    <img
-      src="./assets/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#organization'"
-    />
+
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#organization'" />
     </section>
-    
+
     <section id="organization">
       <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">ORGANIZATIONAL EXPERIENCES</h1> 
+      <h1 class="title">ORGANIZATIONAL EXPERIENCES</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="./assets/hagan_organisasi.jpg" alt="Project 1" class="project-img" />
+              <img src="./assets/hagan_organisasi.jpg" alt="organisasi" class="project-img" />
             </div>
             <h2>Himpunan Mahasiswa Teknik Informatika PENS</h2>
-          
+
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="./assets/EGOV_Hagan.jpg" alt="Project 2" class="project-img" />
+              <img src="./assets/EGOV_Hagan.jpg" alt="E-GOV" class="project-img" />
             </div>
             <h2>E-Government Summit</h2>
-            
+
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="./assets/speaker_Softdev.png" alt="Project 3" class="project-img" />
+              <img src="./assets/speaker_Softdev.png" alt="SoftDev" class="project-img" />
             </div>
-            <h2 >Speaker in Webinar "Starting Point Becoming a Champion"</h2>
-            
+            <h2>Speaker in Webinar "Starting Point Becoming a Champion"</h2>
+
           </div>
-          <div class="text-container">
-            <h1>Himpunan Mahasiswa Teknik Informatika PENS (2022 - Current)</h2>
-              <h3>Staff Research and Technology Department </h3>
+
+          
+        </div>
+        <div class="text-container">
+          <h1>Himpunan Mahasiswa Teknik Informatika PENS (2022 - Current)</h2>
+            <h3>Staff Research and Technology Department </h3>
+            <p>
+              ● Led the organization of the 2022 UI/UX Designer Seminar as Chief Executive, attended by 325
+              students
+              from 28 universities across East Java. Ensured 87.3% of participants understood the material and
+              profession of a UI/UX Designer, achieving a satisfaction score of 4.25/5.
+            </p>
+            <p>
+              ● Directed the 2022 Digital Skills Bootcamp as Chief Executive, providing hard skills training in
+              informatics, design, and data science to 113 PENS students. Improved participants' understanding and
+              insight by 70%, with a satisfaction level of 4/5.
+            </p>
+            <p>
+              ● Executed the 2022 ITDS Insight event as Chief Executive, introducing technology community
+              activities
+              on
+              campus. Engaged 140 students, with 95% expressing interest in joining the technology community.
+            </p>
+            <p>
+              ● Secured financial support as Head of Sponsorship Division for HIMIT FEST 2022, raising ten million
+              rupiah from nine companies.
+            </p>
+            <p>
+              ● Organized the General Election Committee (PPU) Operational Division at the 2021 HIMIT PENS
+              Succession as
+              Head of Division, preparing facilities and infrastructure for online activities.
+            </p>
+            <p>
+              ● Selected and evaluated participants for IT-based business competitions, rigorously assessing
+              dozens
+              of
+              registrants to identify the top 10 teams based on their technical and business acumen, ensuring high
+              competition standards and fostering innovation.
+            </p>
+            <p>
+              ● Emceed the HIMIT Sharing Center seminar events, engaging students and industry.
+            </p>
+            <p>
+              ● Emceed the HIMIT Sharing event, facilitating sharing activities at an orphanage in Surabaya.
+            </p>
+            <h3>as Speaker </h3>
+            <p>
+              ● Speaker for the "Starting Point Becoming a Champion" Webinar at the Software Development Student
+              Activity Unit (UKM).
+            </p>
+            <p>
+              ● Speaker for the "Mastering the Technique of Data Mining and Data Story Telling" Mini Class HIMIT X
+              E-Code at the Electronic Engineering Polytechnic Institute of Surabaya (PENS)
+            </p>
+            <br>
+            <h1>E-Government Summit (2022)</h2>
+              <h3>Chaiman of The Committee E-Government Summit 2022 </h3>
               <p>
-                ● Led the organization of the 2022 UI/UX Designer Seminar as Chief Executive, attended by 325
-                students
-                from 28 universities across East Java. Ensured 87.3% of participants understood the material and
-                profession of a UI/UX Designer, achieving a satisfaction score of 4.25/5.
+                ● Collaborated with the Indonesian Ministry of Communication and Information (KOMINFO) and
+                regional
+                KOMINFO offices across East Java.
               </p>
               <p>
-                ● Directed the 2022 Digital Skills Bootcamp as Chief Executive, providing hard skills training in
-                informatics, design, and data science to 113 PENS students. Improved participants' understanding and
-                insight by 70%, with a satisfaction level of 4/5.
+                ● Organized product innovation exhibitions, technology seminars, and workshops attended by 60
+                participants
+                from 15 KOMINFO offices.
               </p>
               <p>
-                ● Executed the 2022 ITDS Insight event as Chief Executive, introducing technology community
-                activities
-                on
-                campus. Engaged 140 students, with 95% expressing interest in joining the technology community.
+                ● Facilitated the development of 3 innovative products enhancing government processes.
               </p>
-              <p>
-                ● Secured financial support as Head of Sponsorship Division for HIMIT FEST 2022, raising ten million
-                rupiah from nine companies.
-              </p>
-              <p>
-                ● Organized the General Election Committee (PPU) Operational Division at the 2021 HIMIT PENS
-                Succession as
-                Head of Division, preparing facilities and infrastructure for online activities.
-              </p>
-              <p>
-                ● Selected and evaluated participants for IT-based business competitions, rigorously assessing
-                dozens
-                of
-                registrants to identify the top 10 teams based on their technical and business acumen, ensuring high
-                competition standards and fostering innovation.
-              </p>
-              <p>
-                ● Emceed the HIMIT Sharing Center seminar events, engaging students and industry.
-              </p>
-              <p>
-                ● Emceed the HIMIT Sharing event, facilitating sharing activities at an orphanage in Surabaya.
-              </p>
-              <h3>as Speaker </h3>
-              <p>
-                ● Speaker for the "Starting Point Becoming a Champion" Webinar at the Software Development Student
-                Activity Unit (UKM).
-              </p>
-              <p>
-                ● Speaker for the "Mastering the Technique of Data Mining and Data Story Telling" Mini Class HIMIT X
-                E-Code at the Electronic Engineering Polytechnic Institute of Surabaya (PENS)
-              </p>
-              <br>
-              <h1>E-Government Summit (2022)</h2>
-                <h3>Chaiman of The Committee E-Government Summit 2022 </h3>
-                <p>
-                  ● Collaborated with the Indonesian Ministry of Communication and Information (KOMINFO) and
-                  regional
-                  KOMINFO offices across East Java.
-                </p>
-                <p>
-                  ● Organized product innovation exhibitions, technology seminars, and workshops attended by 60
-                  participants
-                  from 15 KOMINFO offices.
-                </p>
-                <p>
-                  ● Facilitated the development of 3 innovative products enhancing government processes.
-                </p>
-          </div>
         </div>
       </div>
-      <img
-      src="./assets/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#experience'"
-    />
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
     </section>
     <section id="experience">
-        <p class="section__text__p1"><br><br/>Explore My</p>
-        <h1 class="title">Award & Certification</h1>
-      
-        <div class="experience-details-container">
-          <div class="about-containers">
-            <div class="details-container color-container">
-              <div class="article-container">
-                <img src="./assets/Gemastik.jpg" alt="Project 1" class="project-img" />
-              </div>
-              <h1 class="experience-sub-title project-title">4th Winner of Data Mining GEMASTIK XVI (2023)
-              </h1>
-              <h3>Pusat Prestasi Nasional, Ministry of Education, Culture, Research, and Technology </h3>
-              <p>
-                ● Conducted in-depth research and authored a paper on Enhancing Cultural Tourism in Indonesia through
-                Prototypical Networks for Few-Shot Learning: A Case Study of Hindu-Buddhist Temples
-              </p>
-              <p>
-                ● Utilized deep metric learning and few-shot learning algorithms to achieve high-accuracy image
-                classification with limited datasets
-              </p>
-              <p>
-                ● Developed a system recognizing and classifying Hindu-Buddhist temple architectures <br><br>
-              </p>
-              <div class="btn-container">
-                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                  Github
-                </button>
-                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                  Documentation Paper
-                </button>
-              </div>
+      <p class="section__text__p1"><br><br />Explore My</p>
+      <h1 class="title">Award & Certification</h1>
+
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/Gemastik.jpg" alt="Project 1" class="project-img" />
             </div>
-            <div class="details-container color-container">
-              <div class="article-container">
-                <img src="./assets/Cipta-inovasi.jpg" alt="Project 2" class="project-img" />
-              </div>
-              <h3 class="experience-sub-title project-title">2nd Winner of Innovation Competition TIK FESTIVAL (2023)</h3>
-                <h3>HIMATIK Jakarta State Polytechnic </h3>
-                <p>
-                  ● Created a carbon recording platform for daily activities with the tagline "Optimize your travel
-                  route
-                  and reduce carbon emissions" on a mobile basis
-                </p>
-                <p>
-                  ● Developed an app calculating the carbon footprint of different travel options, helping users choose
-                  the most environmentally friendly routes <br><br>
-                </p>
-              <div class="btn-container">
-                <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <h1 class="experience-sub-title project-title">4th Winner of Data Mining GEMASTIK XVI (2023)
+            </h1>
+            <h3>Pusat Prestasi Nasional, Ministry of Education, Culture, Research, and Technology </h3>
+            <p>
+              ● Conducted in-depth research and authored a paper on Enhancing Cultural Tourism in Indonesia through
+              Prototypical Networks for Few-Shot Learning: A Case Study of Hindu-Buddhist Temples
+            </p>
+            <p>
+              ● Utilized deep metric learning and few-shot learning algorithms to achieve high-accuracy image
+              classification with limited datasets
+            </p>
+            <p>
+              ● Developed a system recognizing and classifying Hindu-Buddhist temple architectures <br><br>
+            </p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Documentation Paper
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/Cipta-inovasi.jpg" alt="Project 2" class="project-img" />
+            </div>
+            <h3 class="experience-sub-title project-title">2nd Winner of Innovation Competition TIK FESTIVAL (2023)</h3>
+            <h3>HIMATIK Jakarta State Polytechnic </h3>
+            <p>
+              ● Created a carbon recording platform for daily activities with the tagline "Optimize your travel
+              route
+              and reduce carbon emissions" on a mobile basis
+            </p>
+            <p>
+              ● Developed an app calculating the carbon footprint of different travel options, helping users choose
+              the most environmentally friendly routes <br><br>
+            </p>
+            <div class="btn-container">
+              <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
                   Github
                 </button> -->
-                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                  Documentation Paper
-                </button>
-              </div>
-            </div>
-          
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Documentation Paper
+              </button>
             </div>
           </div>
+
         </div>
+      </div>
+      </div>
 
-        <div class="experience-details-container">
-          <div class="about-containers">
-            <div class="details-container color-container">
-              <div class="article-container">
-                <img src="./assets/generative-AI.jpg" alt="Project 1" class="project-img" />
-              </div>
-              <h1 class="experience-sub-title project-title">Generative AI with Large Language Models
-              </h1>
-              <h3>DeepLearning.AI & Amazon Web Services (2024)</h3>
-              <p>
-                ● Generative AI use cases, project lifecycle, and model pre-training
-              </p>
-              <p>
-                ● Fine-tuning and evaluating large language models
-              </p>
-              <p>
-                ● Reinforcement learning and LLM-powered applications <br><br>
-              </p>
-              <div class="btn-container">
-                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                  Github
-                </button>
-                <button class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://coursera.org/share/83416b67816b53a60a6d97cc893688c6'">
-                  Kredinsial ID
-                </button>
-              </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/generative-AI.jpg" alt="Project 1" class="project-img" />
             </div>
-            <div class="details-container color-container">
-              <div class="article-container">
-                <img src="./assets/machine-learning.jpg" alt="Project 2" class="project-img" />
-              </div>
-              <h3 class="experience-sub-title project-title">Machine Learning with Python
-              </h3>
-              <h3> IBM (2024) </h3>
-              <p>
-                ● Introduction to Machine Learning
-              </p>
-              <p>
-                ● Classification algorithms, such as KNN, Decision Trees, Logistic Regression and SVM
-              </p>
-              <p>
-                ● Clustering algorithms specifically k-means clustering <br><br><br>
-              </p>
-      
-              <div class="btn-container">
-                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                  Github
-                </button>
-                <button class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://coursera.org/share/46552f4b8b01a456d612081909f57ea8'">
-                  Kredinsial ID
-                </button>
-              </div>
+            <h1 class="experience-sub-title project-title">Generative AI with Large Language Models
+            </h1>
+            <h3>DeepLearning.AI & Amazon Web Services (2024)</h3>
+            <p>
+              ● Generative AI use cases, project lifecycle, and model pre-training
+            </p>
+            <p>
+              ● Fine-tuning and evaluating large language models
+            </p>
+            <p>
+              ● Reinforcement learning and LLM-powered applications <br><br>
+            </p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://coursera.org/share/83416b67816b53a60a6d97cc893688c6'">
+                Kredinsial ID
+              </button>
             </div>
-
           </div>
-        </div>
-        </div>
-        
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/machine-learning.jpg" alt="Project 2" class="project-img" />
+            </div>
+            <h3 class="experience-sub-title project-title">Machine Learning with Python
+            </h3>
+            <h3> IBM (2024) </h3>
+            <p>
+              ● Introduction to Machine Learning
+            </p>
+            <p>
+              ● Classification algorithms, such as KNN, Decision Trees, Logistic Regression and SVM
+            </p>
+            <p>
+              ● Clustering algorithms specifically k-means clustering <br><br><br>
+            </p>
 
-        <!-- <div class="about-details-container">
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://coursera.org/share/46552f4b8b01a456d612081909f57ea8'">
+                Kredinsial ID
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      </div>
+
+
+      <!-- <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
               <img src="./assets/experience.png" alt="Experience icon" class="icon" />
@@ -666,8 +602,8 @@
             </div>
           </div>
         </div> -->
-        <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Technical Skills</h1>
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Technical Skills</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
@@ -691,7 +627,7 @@
                 <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                 <div>
                   <h3>SQL</h3>
-                  <p>Beginner</p> <br/>
+                  <p>Beginner</p> <br />
                 </div>
               </article>
             </div>
@@ -703,22 +639,22 @@
                   <div>
                     <h3>Python</h3>
                     Sklearn | Matplotlib | PyTorch | Tensorflow | Keras | Flask | NLTK | Transformer | Langchain | peft
-                    
+
                   </div>
                 </article>
                 <article>
                   <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon" /> -->
                   <div>
                     <h3>R</h3>
-                    dplyr | Stringr | DataExplorer | ggplot2 | readr | tidyverse 
-                    
+                    dplyr | Stringr | DataExplorer | ggplot2 | readr | tidyverse
+
                   </div>
                 </article>
-                
+
               </div>
             </div>
           </div>
-          
+
           <div class="details-container">
             <h2 class="experience-sub-title">Visualization Tools</h2>
             <div class="article-container">
@@ -756,44 +692,37 @@
       </div>
       </div>
       </div>
-    </section>
+      </section>
 
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:haganrahman@gmail.com">haganrahman@gmail.com</a></p>
+      <section id="contact">
+        <p class="section__text__p1"><br>Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+            <p><a href="mailto:haganrahman@gmail.com">haganrahman@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+            <p><a href="https:www.linkedin.com/in/hagansadinarahman">LinkedIn</a></p>
+          </div>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https:www.linkedin.com/in/hagansadinarahman">LinkedIn</a></p>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#organization">organization</a></li>
-            <li><a href="#experience">Award & Certification</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <p>Copyright &#169; 2024 Hagan Sadina Rahman. All Rights Reserved.</p>
-    </footer>
-    <script src="script.js"></script>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#organization">organization</a></li>
+              <li><a href="#experience">Award & Certification</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2024 Hagan Sadina Rahman. All Rights Reserved.</p>
+      </footer>
+      <script src="script.js"></script>
   </body>
+
 </html>
