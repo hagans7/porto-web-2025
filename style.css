@@ -418,8 +418,6 @@ section-2 {
 
 #organization {
   position: relative;
-  /* height: 170vh;
-  margin-top: 3rem; */
   padding-left: 10px;
 }
 
@@ -476,7 +474,6 @@ section-2 {
 
 #experience {
   position: relative;
-  /* height: 380vh; */
 }
 
 .experience-sub-title {
