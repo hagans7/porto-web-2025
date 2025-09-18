@@ -17,6 +17,12 @@ html {
 
 p {
   color: rgb(85, 85, 85);
+  text-align: justify;
+  /* rata kiri */
+  margin: 6px 0;
+  /* beri jarak antar paragraf */
+  line-height: 1.6;
+  /* lebih enak dibaca */
 }
 
 /* TRANSITION */
